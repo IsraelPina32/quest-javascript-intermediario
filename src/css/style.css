@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  font-size: 16px;
+  background-image: url(../img/background-center.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.text-content {
+  padding: 20px;
+  width: 470px;
+}
+
+.text-content .text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  line-height: 23px;
+  font-size: 23px;
+  padding: 15px;
+}
+
+.text-content .description {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  padding: 15px;
+}
+
+.form-content {
+  width: 340px;
+  margin: 10px;
+}
+
+.form {
+  background: rgba(255, 255, 255, 1);
+  height: 380px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.name,
+.email,
+.number, 
+.message {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+.form .message {
+  padding: 5px 20px 50px 5px;
+  width: 292px;
+}
+
+span {
+  padding-top: 15px;
+}
+
+.form .btn {
+  background: rgba(60, 204, 135, 1);
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  transition: 0.2s ease-in-out;
+}
+.form .btn:hover {
+  transform: scale(1.07);
+  opacity: 0.8;
+}
+
+.form > div, div input, div textarea {
+  width: 100%;
+}
+
+.verificacao-campo{
+  position: absolute;
+  font-size: 10px;
+  color:  rgba(245, 46, 46, 1);
+}
+
+.field-filled {
+    border: 1px solid rgba(0, 194, 43, 1);
+    color: linear-gradient(0deg, #00C22B, #00C22B);
+}
+
+.field-not {
+    border: 1px solid rgba(245, 46, 46, 1);
+}

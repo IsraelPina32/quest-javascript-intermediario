@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest de javascript intermediario</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <script type="text/javascript" src="./src/js/index.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="text-content">
+        <h1 class="text">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+        <p class="description">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </section>
+      <section class="form-content">
+        <form id="form" class="form">
+          <div>
+            <input
+              type="text"
+              id="name"
+              class="name"
+              placeholder="Nome completo*"
+            />
+            <div class="verificacao-campo"></div>
+          </div>
+          <div>
+            <input type="email" id="email" class="email" placeholder="Email*" />
+            <div class="verificacao-campo"></div>
+          </div>
+          <div>
+            <input
+              type="number"
+              id="number"
+              class="number"
+              placeholder="Telefone*"
+            />
+            <div class="verificacao-campo"></div>
+          </div>
+          <div>
+            <textarea name="message" id="menssage" class="message"></textarea>
+
+            <div class="verificacao-campo"></div>
+          </div>
+          <span>*campo obrigatorio</span>
+
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
